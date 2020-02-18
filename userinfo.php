@@ -1,5 +1,6 @@
 <?php 
-
+echo "Please visit the school office.";
+/*
 $con = mysqli_connect('localhost','root');
 if($con){
 	echo 'Successful';
@@ -53,4 +54,4 @@ mail($email,$sub,$msg,$headers);
 
 header('location:index.php');
 
- ?>
+ ?>*/
