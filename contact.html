@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<title>Contact</title>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="logo" style="width:40px;"></a>
+  <a class="navbar-brand" href="index.php">Holy Shrine Public School</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </li>
+   <li class="nav-item">
+        <a class="nav-link" href="aboutus.html">About Us</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+      </li>
+
+        <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0" method="POST">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<section class="my-5">
+	<div class="py-3">
+	<div class="text-center">
+		<h2> Contact Us </h2>
+	</div>
+	</div>
+	<div class="w-50 m-auto">
+		<form action="userinfo.php" method="post">
+			<div class="form-group">
+				<label>Name</label>
+				<input type="text" name="user" autocomplete="off" class="form-control">
+			</div>
+            <div class="form-group">
+				<label>E-mail</label>
+				<input type="email" name="email" autocomplete="off" class="form-control">
+			</div>
+            <div class="form-group">
+				<label>Mobile</label>
+				<input type="phone" name="mobile" autocomplete="off" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Address</label>
+				<textarea class="form-control" name="address"></textarea>
+			</div>
+			<button type="submit" class="btn btn-success">Submit</button>
+		</form>
+	</div>
+</section>
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <footer>
+	<p class="p-3 bg-dark text-white text-center">© Powered by: <a href="index.html">Holy Shrine Public School</a></p>
+</footer>
+</body>
+</html>
